@@ -1,4 +1,26 @@
 body {
-  background-color: white; }
+  background-color: #DEDCE7; }
+
+.container {
+  display: flex;
+  height: 100vh; }
+
+p {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #596299;
+  padding: 24px;
+  color: white;
+  border-radius: 10px; }
+
+label {
+  line-height: 2em; }
+
+#name, #pass {
+  margin-bottom: 24px; }
+
+h1 {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

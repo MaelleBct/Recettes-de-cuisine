@@ -1,3 +1,37 @@
+$background : #DEDCE7;
+$dark-blue : #1A2166;
+$light-blue:  #596299;
+$orange :  #FC8607;
+$white:white;
+
+
 body{
-    background-color:white;
+    background-color: $background;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  p {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:$light-blue ;
+    padding: 24px;
+    color: $white ;
+    border-radius: 10px;
+  }
+
+  label{
+      line-height: 2em;;
+  }
+
+  #name, #pass{
+      margin-bottom: 24px;
+  }
+
+
+  h1{
+      text-align: center;
+  }
